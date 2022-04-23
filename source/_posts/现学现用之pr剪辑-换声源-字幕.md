@@ -1,0 +1,113 @@
+---
+title: pr做第一个视频小记录
+categories:
+  - 兴趣
+  - UP
+tags:
+  - pr
+img: >-
+  https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2021-10-02_20-39-06.png
+abbrlink: eba7cb24
+date: 2021-10-02 20:09:27
+---
+
+# pr做第一个视频小记录
+
+现学现用之pr剪辑+换声源+字幕
+
+> 这个算是真正意义上的剪辑了，虽说还是入门水平，不过能学些新鲜的技能感觉很棒，国庆的前两天不算虚度了~
+> 这首RPG是[蜡笔小新 超级美味B级美食大逃亡](https://www.bilibili.com/bangumi/media/md15072/)的主题曲，原版就很好听，在网易云上被日推了LeftyHandCream的翻唱版，太喜欢了，去油管找原版视频，结果没有mv只有个静态的画面。。
+> 失望带来希望，那么我就用这个原版的mv配上翻唱版的音频，来实现我的愿望吧。整个过程中遇到了很多问题，**视频音频的下载、音画不同步、两个版本的间奏不一样总时长也不一样、切换两个音源时的过渡、音量控制、网易云歌词提取、字幕格式转换和格式修复**，学到很多，这不得记录一下🥳
+
+## 1.音视频下载
+
+这个可老有经验了😎并且方法有很多，比如youtube下载插件、手机客户端缓存然后去data里拿、用b站下载脚本。
+
+这里由于youtube原版才720p，而b站有人发了处理过的1080p 60fps的版本，我就直接用[这个](https://www.bilibili.com/video/BV1bJ411z7HQ)了，用上祖传的bilibili evolved脚本，这里选最高画质，格式为`DASH`原因是只支持flv和DASH两种格式，flv在pr2020是不支持直接编辑的，并且DASH是音频视频分开下载的，反而更方便剪辑：
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002210132506.png" style="zoom:50%;" />
+
+原版视频音频的文件就搞定了：
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002210524700.png" style="zoom:67%;" />
+
+翻唱版呢，当然是无损更好，使用[MyFreeMP3](http://tool.liumingye.cn/music/?page=audioPage&type=YQB&name=RPG%20Lefty)即可：
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002210821531.png" style="zoom: 50%;" />
+
+> 后面还用到了印尼宽带的背景音乐"叮"作为音频的过渡，获取方式也是同上。
+
+## 2.剪辑适配和过渡
+
+这里是遇到的第一个难点，原版的歌在**1:37**时是有一段30s的间奏的，但是翻唱版把这段间奏去掉了，所以直接用翻唱版的音频后半段音画就完全不一致了，还有另一个小问题是翻唱版的伴奏是重制的，刚开始的伴奏到开唱时间也不同，否则嘴型对不上，强迫症应该会觉得难受，需要调整一下。
+
+### 先解决小问题：
+
+经过反复尝试，找到了时间差，翻唱比原版的慢一点，将翻唱的起始位置移动到了新的坐标：
+
+```position
+00;00;00;20
+```
+
+### 再解决大问题：
+
+反复尝试，一点点调整，A1轨道是翻唱，A2是原唱，在这里紫色的方框部分左边是翻唱第一段最后一句接下来的短暂伴奏，右边就直接开始第二段了，而红色方框是原唱这里和间奏的衔接部分。
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002212020546.png" style="zoom:67%;" />
+
+视频截断会很难看而且间奏部分不能没有，那么就只能把翻唱剪开，后半部分移到和原唱第二部分一样的位置，中间这段间奏使用原唱的来代替，虽然说起来容易，但是这里费了最多的时间，导致我晚饭都没吃再加上字幕一直弄到了晚上8点😁，一口气做完的感觉针布戳。
+
+结果是，衔接部分极其难搞，怎么听都很突兀，我想到了转场音效，搜了很多也不好，灵机一动，印尼宽带的"叮"是不是可以用一下，我下了个素材剪出来这个叮放了上去，然后调两段bgm的音量，尴尬而不失礼貌地转场了，还是不够顺滑:
+
+![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002213249115.png)
+
+后面的衔接也是类似的处理。
+
+## 3.网易云歌词提取、lrc转srt格式
+
+找到了一个[网易云lrc歌词提取工具](https://github.com/GAATTC0/163MusicLyrics)，然后网易云分享歌曲链接http://music.163.com/song?id=26329928，拿到歌曲id，就可以方便地下载lrc格式歌词了：
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002214130315.png" style="zoom:67%;" />
+
+选择`合并歌词`，原文译文我全都要.jpg，然后下面选`UTF-8-BOM`，这个截图截错了😑
+
+保存了lrc歌词，但是pr只支持srt格式的，我们要想办法去转格式，虽然说手动也可以，但是，没有但是，就是懒XD
+
+有幸几秒钟就找到了一个~~好用~~(不确定)的[在线转换工具](http://www.lrccon.com/convert.php)：
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002214638908.png" style="zoom:67%;" />
+
+不清楚是不是好用，因为一大堆问题，看下一章吧
+
+## 4.字幕格式问题处理
+
+直接导入素材，发现文件格式有问题：
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2021-10-02_20-42-37.png" style="zoom:67%;" />
+
+网上找了找[前人的经验](https://www.zhihu.com/question/310923147)，发现可能的问题有很多：
+
+- SRT字幕文件编码不是UTF-8或ANSI(改成了UTF-8-BOM)
+- SRT字幕文件第一个字幕行前面，有一个或多个空行(排除)
+- <font color=red>第一个时间轴是00:00:00,000 --> 00:00:00,000</font>(改成了001,这个是主要原因)
+- 文件太大(排除，这个回答就不专业，差评)
+
+然后就可以成功导入拖到轨道中了，随之而来的又是一个新问题，
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002220454322.png" style="zoom:67%;" />
+
+文件格式看起来还是不对，从第二个开始坐标就跑到了字幕内容的位置，而后面的坐标全乱了导致字幕不显示。
+研究了一会发现原来是有一些片段是空内容，pr读取的时候会跳过空行读下一行，进而读取了坐标，导致之后的坐标都乱了：
+
+<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2021-10-02_20-42-04.png" style="zoom:67%;" />
+
+后面还有很多同样的问题，我把空行全都换成了"~"，美丽地解决了这个问题。
+
+![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002221126236.png)
+
+最后一个问题是原文和译文在同一行，很难看而且不符合我们的阅读习惯，加个换行符就好了，再改改字幕的字体、大小、背景颜色、背景透明度等。
+至此，第一个视频就宣告竣工了✌完结撒花❀🎉🎊🎆🎇💐🌸🏵🌹🌺🌻🌼🌷
+
+## 5.成果
+
+[传送门](https://www.bilibili.com/video/BV16R4y1p7Gs)
