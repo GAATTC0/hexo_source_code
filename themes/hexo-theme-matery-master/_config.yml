@@ -95,7 +95,7 @@ menu:
         url: https://www.codecheng.com
         icon: fas fa-user
   小工具:
-    url: 
+    url:
     icon: fas fa-wrench
     children:
       - name: fontawesome库
@@ -136,7 +136,7 @@ menu:
         url: /tools/paper
         icon: fas fa-sticky-note
   小游戏:
-    url: 
+    url:
     icon: fas fa-gamepad
     children:
       - name: 🍉合成大西瓜
@@ -165,6 +165,9 @@ menu:
         icon: fas fa-chess
       - name: 👶重开模拟器
         url: /games/life/view/
+        icon: fas fa-baby
+      - name: 👶重开模拟器v2
+        url: /games/lifeV2/view/
         icon: fas fa-baby
       - name: 🐉召唤神龙
         url: /games/dragon
@@ -244,7 +247,7 @@ video:
   showTitle: false
   title: 精彩视频
   url: # 必填
-  pic: 
+  pic:
   thumbnails:
   height: 400 # 如：400
   autoplay: false # 是否自动播放
@@ -723,7 +726,7 @@ icp:
 # 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html
 jsDelivr:
   url: # https://cdn.jsdelivr.net/gh/skyls03/skyls03.github.io
-  
+
 #加载动画
 loadingPages:
   enable: true
