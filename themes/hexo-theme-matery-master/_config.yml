@@ -552,7 +552,7 @@ googleAnalytics:
 # 添加baidu Analytics百度统计配置
 baiduAnalytics:
   enable: true
-  id: b68ce978f3df71e092631f5248e7d4b2
+  id: 7e0509eb6cb213f0ea3301845a5c6898
 
 # 百度搜索资源平台提交链接
 baiduPush: false
