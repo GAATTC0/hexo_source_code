@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://gaattc.top
+url: https://gaattc.life
 root: /
 permalink: posts/:abbrlink/ #:year/:month/:day/:title/
 # abbrlink config
