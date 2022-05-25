@@ -6,7 +6,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: 'https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210210163622.png'
+img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210210163622.png'
 abbrlink: 708ac940
 date: 2020-11-21 12:23:52
 update: 2020-12-09 22:24:50
@@ -28,12 +28,12 @@ update: 2020-12-09 22:24:50
 
 创建应用：
 
-<left><img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121123052704.png" alt="image-20201121123052704" style="zoom: 60%;" />
+<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121123052704.png" alt="image-20201121123052704" style="zoom: 60%;" />
 
 
 获取key：
 
-<left><img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121123240863.png" alt="image-20201121123240863" style="zoom:66%;" />
+<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121123240863.png" alt="image-20201121123240863" style="zoom:66%;" />
 
 
 ## 2.配置文件
@@ -191,12 +191,12 @@ new Valine({
 
 然后登录leancloud，在你的应用中部署代码：
 
-<left><img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121132414665.png" alt="image-20201121132414665" style="zoom:66%;" />
+<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121132414665.png" alt="image-20201121132414665" style="zoom:66%;" />
 
 
 值得注意的是：
 
-<left><img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121132538439.png" alt="image-20201121132538439" style="zoom:50%;" />
+<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121132538439.png" alt="image-20201121132538439" style="zoom:50%;" />
 
 代码如下，将token替换为自己的SCKEY：
 
@@ -323,7 +323,7 @@ new Valine({
 
 ```javascript
 //jsdelivr永远滴神
-emojiCDN: 'https://cdn.jsdelivr.net/gh/GAATTC0/ValineCDN@master/', 
+emojiCDN: 'https://fastly.jsdelivr.net/gh/GAATTC0/ValineCDN@master/', 
 // 表情title和图片映射
 emojiMaps: {
 "bilibilitv2": "bilibilitv/[tv_doge].png",

@@ -26,11 +26,11 @@ update: 2021-03-17 20:46:33
 
 ## 2.附谱(from 大树)
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/640.webp)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/640.webp)
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/640%20(1).webp)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/640%20(1).webp)
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/640%20(2).webp)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/640%20(2).webp)
 
 ## 3.进度
 

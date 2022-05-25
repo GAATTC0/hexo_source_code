@@ -6,7 +6,7 @@ categories:
   - 日常
   - 分享
 img: >-
-  https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210516193249220.png
+  https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210516193249220.png
 abbrlink: 21eb916f
 date: 2021-05-16 19:20:10
 ---
@@ -35,7 +35,7 @@ date: 2021-05-16 19:20:10
 
  <a target="_blank" href="https://gaattc.top"><img src="https://img.shields.io/badge/Auth-GAATTC-3790ee?style=flat&logo=Google" title="很高兴遇到你"></a>
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210516193249220.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210516193249220.png)
 
 ## 2.制作静态徽标
 
@@ -91,7 +91,7 @@ bitcoin, dependabot, discord, gitlab, npm, paypal, serverfault, stackexchange, s
 
 [simpleicons官网](https://simpleicons.org/)
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210516195012065.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210516195012065.png)
 
 这里提供了大量logo可供选择(这不比fontawesome强多了？🥴)
 

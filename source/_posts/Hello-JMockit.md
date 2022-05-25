@@ -7,7 +7,7 @@ tags:
   - 学习心得
   - jmockit
 img: >-
-  https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210714092448487.png
+  https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210714092448487.png
 abbrlink: 5b9abc
 date: 2021-07-14 09:19:43
 ---
@@ -351,7 +351,7 @@ public class AppTest {
 
 在记录或验证代码块中，`withXxx(...)`可以对参数的任何子集调用方法：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210714152627843.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210714152627843.png)
 
 下面以withSubstring()为例：
 

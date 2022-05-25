@@ -5,7 +5,7 @@ categories:
   - java
 tags:
   - java
-img: 'https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/wallhaven-g75r7d.jpg'
+img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/wallhaven-g75r7d.jpg'
 abbrlink: 1e79e935
 date: 2021-07-28 09:56:09
 ---
@@ -182,7 +182,7 @@ Stream.of("111", "1", "11").sorted(Comparator.comparingInt(String::length)).forE
 传入一个收集器，将stream中的元素收集到集合或其他结果中。
 ①可以利用Collectors提供的静态方法转成集合：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210728134512331.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210728134512331.png)
 
 例如：
 

@@ -7,7 +7,7 @@ tags:
   - git
 abbrlink: 44ee9398
 date: 2021-08-10 09:53:20
-img: https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/111git.jpg
+img: https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/111git.jpg
 ---
 
 # git在日常工作中的操作:stash、reset、reverse、rebase、patch
@@ -41,11 +41,11 @@ git stash save "message"
 
 直接右键`git -> stash changes`或者在导航栏处找到`stash changes`，
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810141926061.png" style="zoom: 67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810141926061.png" style="zoom: 67%;" />
 
 然后：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810142453927.png" style="zoom: 80%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810142453927.png" style="zoom: 80%;" />
 
 注意的是这个keep index选项，一般是不选的，它的意义是只储存工作目录的更改而不储存暂存区的更改，一般我记得idea设置了自动add的，所以一般都是在咋暂存区的，有特殊需要也可以根据实际情况选择。
 
@@ -69,7 +69,7 @@ stash@{2}: On 5.1: selfCricle
 
 和第一步一样的地方，选择UnStash changes，出现如下界面：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810143721633.png" style="zoom: 80%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810143721633.png" style="zoom: 80%;" />
 
 能看到stash的列表以及message。这里面有几个选项：
 
@@ -106,7 +106,7 @@ git stash clear
 
 **IDEA操作：**
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810151631563.png" style="zoom:80%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810151631563.png" style="zoom:80%;" />
 
 这里的reset type有三种，都是恢复到某一次commit，但是对于本地的修改范围不同：
 
@@ -167,7 +167,7 @@ git format-patch commit_id -1
 
 **IDEA或者sourcetree：**
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810162347763.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210810162347763.png)
 
 ### 使用patch
 

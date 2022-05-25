@@ -6,7 +6,7 @@ categories:
 tags:
   - au
   - pr
-img: 'https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210311131220.png'
+img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210311131220.png'
 abbrlink: 315fc756
 date: 2021-03-11 12:58:10
 ---
@@ -19,19 +19,19 @@ date: 2021-03-11 12:58:10
 
 ### 1.导入源视频
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210311131500.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210311131500.png)
 
 先听一遍原版，毕竟后面就听不到了
 
 ### 2.这里使用母带处理
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311132246748.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311132246748.png" style="zoom:67%;" />
 
 为什么不用混响呢，因为在我把所有混响都尝试了一遍后发现，还是母带处理更符合我的口味~
 
-> ![明明是自己没搞懂这些选项吧](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311133117288.png)
+> ![明明是自己没搞懂这些选项吧](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311133117288.png)
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311133254532.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311133254532.png" style="zoom:67%;" />
 
 混响拉满，下面随便设置一下，左边把低频和高频的响度拉高5db左右
 
@@ -41,21 +41,21 @@ date: 2021-03-11 12:58:10
 
 导出音频：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311133647049.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311133647049.png)
 
 ## 二、Premiere部分
 
 ### 1.先新建一个项目
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311133852053.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311133852053.png)
 
 ### 2.将音视频分别导入
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311134049200.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311134049200.png)
 
 ### 3.拖入时间轴并对齐
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311134228567.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311134228567.png)
 
 ### 4.删除原音频
 
@@ -63,19 +63,19 @@ date: 2021-03-11 12:58:10
 
 把蓝色音轨删掉，取消链接然后清除：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311134428309.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311134428309.png)
 
 ### 5.调整一下音量
 
 手机录音的音量太低了，在绿色音轨上选择音频增益，增大10db吧。
 
-![虽说+10db还是有点小](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311134729007.png)
+![虽说+10db还是有点小](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311134729007.png)
 
 ### 6.失败的尝试
 
 想给视频加点东西，但是这破解版的pr连接不了adobe，字体文件缺失不能用😐
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311135053545.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311135053545.png)
 
 ### 7.成功的结局
 
@@ -83,7 +83,7 @@ date: 2021-03-11 12:58:10
 
 格式选择H.264可以导出mp4格式，再使用`匹配源`就可以一键配置格式了。
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311135237208.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210311135237208.png)
 
 ## 三、展望
 
@@ -93,4 +93,4 @@ date: 2021-03-11 12:58:10
 
 "你知道的越多，你不知道的越多"，这句话一点也没错。
 
-![好了肝了一中午该睡觉了，下午又是开始重复的一天](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/-1d8f6ad9fabc1081.jpg)
+![好了肝了一中午该睡觉了，下午又是开始重复的一天](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/-1d8f6ad9fabc1081.jpg)

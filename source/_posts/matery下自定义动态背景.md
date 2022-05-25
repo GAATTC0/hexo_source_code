@@ -7,7 +7,7 @@ tags:
   - 学习心得
   - hexo
 img: >-
-  https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2020-12-03_22-26-45.jpg
+  https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2020-12-03_22-26-45.jpg
 abbrlink: e95bf6a
 date: 2020-12-03 20:33:53
 ---
@@ -117,11 +117,11 @@ hexo\themes\hexo-theme-matery-master\layout\layout.ejs
 	</script>
 ```
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201203204217012.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201203204217012.png)
 
 ### 3.效果(假装星星在动...)
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2020-12-03_20-45-25.jpg)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2020-12-03_20-45-25.jpg)
 
 ### 4.问题
 
@@ -170,7 +170,7 @@ hexo\themes\hexo-theme-matery-master\layout\layout.ejs
 <script src="/js/canva_moving_effect.js"></script>
 ```
 
- <img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201203223146002.png" style="zoom: 67%;" />
+ <img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201203223146002.png" style="zoom: 67%;" />
 
 ### 3.单独引入js文件，因为太多了放body里不好看
 
@@ -420,4 +420,4 @@ hexo\themes\hexo-theme-matery-master\source\js
 
 ### 4.大功告成,附效果图(脑补圈圈在动~)
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2020-12-03_22-26-45.jpg)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2020-12-03_22-26-45.jpg)

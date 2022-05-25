@@ -6,7 +6,7 @@ categories:
   - 日常
   - 分享
 img: >-
-  https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928111836920.png
+  https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928111836920.png
 abbrlink: 42dd4c
 date: 2021-09-28 09:25:24
 ---
@@ -23,13 +23,13 @@ date: 2021-09-28 09:25:24
 
 `Settings -> Appearance&Behavior -> Appearance`:
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928102636561.png" style="zoom: 67%;" /> 
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928102636561.png" style="zoom: 67%;" /> 
 
 #### ②代码字体
 
 `Settings -> Editor -> Font`:
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928102941315.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928102941315.png" style="zoom:67%;" />
 
 consolas, yyds.
 
@@ -37,7 +37,7 @@ consolas, yyds.
 
 当包路径很多时，中间可能会有很多的空包，这样要手动点开每一个就很麻烦，compact可让这些空的包一次性展开为一个包的样子，报名之间用"."分隔，既方便又美观：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928103454360.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928103454360.png" style="zoom:67%;" />
 
 ### 3.Tab数量控制
 
@@ -45,11 +45,11 @@ idea的默认tab数量是有限制的，一行显示满了再打开新的tab就�
 
 `Settings -> Editor -> General -> Editor Tabs`:
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928110635358.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928110635358.png)
 
 先关闭`Show tabs in one row`,然后下面有一个关闭策略：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928110758987.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928110758987.png)
 
 把这个Tab limit的数值调大亿点即可，这样以来就可以多行显示了。
 
@@ -59,7 +59,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 `Settings -> Editor -> Code Style -> Java`：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928111349638.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928111349638.png" style="zoom:67%;" />
 
 将下面这两个替换策略的值调大亿点即可。
 
@@ -67,7 +67,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 `Settings -> Editor -> General -> Auto Import -> Java`：
 
-![image-20211007111153595](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211007111153595.png)
+![image-20211007111153595](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211007111153595.png)
 
 选择自动将粘贴的代码中的类import、自动import类名不冲突的类、自动去掉无效的import。
 
@@ -79,13 +79,13 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 {DATE}、{TIME}、{USER}、{PACKEGE_NAME}等。
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928113902841.png" style="zoom:50%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928113902841.png" style="zoom:50%;" />
 
 ### 7.比较不同
 
 这个文档比较功能比word那些的好用多了，可以直接在某个文件的任意位置右键选择`Compare With Clipboard`，就可以将其和剪贴板中的文字进行比较了，并且非常详细和美观，当然前提时要先复制一份要比较的代码，另外，还可以选中一段代码进行比较，这个也很方便：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929141513924.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929141513924.png)
 
 还有一个是不用复制的比较方法，对整个文件进行对比，在某个文件右键选择`Compare With`然后选择另一个文件即可。
 
@@ -95,7 +95,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 `File –> settings –> Editor –> General -> Code Completion`：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211007105913688.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211007105913688.png)
 
 将Match case取消勾选即可，若如此做，首字母大小写不同的字符都会被用作提示了，但是感觉也带来一些问题，就是精度会降低，毕竟参与提示的字符会变多，就像打字一样，提示的词汇太多反而不好找了。
 
@@ -107,45 +107,53 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 有时编辑大文件会卡顿和提示"low memory"，默认Xmx时1773M，可以手动设置一下，`navi -> Help -> Edit Custom VM Options`:
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20220303195925709.png" style="zoom: 50%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20220303195925709.png" style="zoom: 50%;" />
 
 **适当**调整一下，如：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20220303200140504.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20220303200140504.png)
 
 ### 11.过长自动换行
 
 `Settings -> Editor -> Code Style`：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20220422101315769.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20220422101315769.png" style="zoom:67%;" />
+
+### 12.import格式
+
+`Settings -> Editor -> Code Style -> Java-> imports`：
+
+import layout:
+
+这里可以自定义import的格式，可以将自定义的包名添加规则格式化时自动移到指定位置，且可以在指定包名之间添加空行，还有静态引用单独一个区域等。
 
 ## 二、插件篇
 
 ### 1.Translation
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928104018440.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928104018440.png)
 
 划线翻译、文档翻译、翻译并替换，还是很好用的。支持google、有道、百度翻译，但是综合来看还是google更准确一些，就是时常会有一些网络问题，可以在设置里勾选使用tanslate.google.com，
 
 `Settings -> Tools -> Translation`：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928141415379.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928141415379.png)
 
 ### 2.Rainbow  Brackets
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928105851220.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928105851220.png)
 
 对比了无数主题，发现还是idea自带的darcula主题看着舒服，但是缺点是高亮的太少了，一大堆代码大部分都是灰色的，看起来很费劲，所以包括括号什么的，使用这个彩虹括号插件就可以让界面更美观、代码结构更清晰，就不上图了，体验过的都说好。
 
 ### 3.Nyan Progress Bar
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928105905553.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928105905553.png)
 
 让进度条变成彩虹猫，本来枯燥缓慢的进度条好像变得更快了呢！
 
 ### 4.IDE Eval Reset
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928105918726.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928105918726.png)
 
 [下载传送门](https://gaattc.lanzoui.com/iMkxyulpvda)
 
@@ -155,7 +163,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 1. 首先，下载破解插件压缩包，将其放在一个安全的路径，<font color=red>插件安装后不要移动和删除，也不能更新IDEA</font>，否则破解插件会失效；
 2. 新建一个项目，将压缩包直接拖进编译器，然后重启编译器；
-3. 重新启动后在顶部的导航栏`help`中，最后一行会出现一个`Eval Reset`选项，打开后右下角有一个![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928140810450.png)选项，勾选之，这样就会在每次重启前自动重置试用期限了。
+3. 重新启动后在顶部的导航栏`help`中，最后一行会出现一个`Eval Reset`选项，打开后右下角有一个![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928140810450.png)选项，勾选之，这样就会在每次重启前自动重置试用期限了。
 
 > code with me功能还不能试用，查看会发现没有激活，但是令人惊喜的是没激活也可以直接使用233
 
@@ -165,13 +173,13 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 使用方法：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211009151210902.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211009151210902.png)
 
 首先点击右上角的code with me图标或者按`ctrl+shift+y`呼出这个选项界面，
 
 然后选择第一个`enable access and copy invitation link`为邀请别人来协同编辑你本地的代码，在这之前可以进行一些权限的设置：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211009151449766.png" style="zoom: 67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211009151449766.png" style="zoom: 67%;" />
 
 第二个选项是随时可以配置(有人加入协同编辑或没有时)其他人的权限的配置。
 
@@ -205,7 +213,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 `Settings -> Version Control-> Commit`：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928112721237.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928112721237.png" style="zoom:67%;" />
 
 #### ①Reformat code
 
@@ -243,7 +251,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 `Settings -> Version Control -> Confirmation`：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928135302888.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928135302888.png)
 
 选择Add silently即可在新建文件时自动add了。
 
@@ -253,7 +261,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 就可以将这些改变储存起来，类似于stash操作，然年在右侧的shelf栏中就会多出来你储存的更改，可以随时选择unshelve进行恢复(这里的恢复相当于stash的apply操作而不是pop，也就是说不会因为恢复而删除这个存储)，也可以重命名和删除等操作，总体来说比stash方便很多。
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928150918644.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210928150918644.png)
 
 ### 5.Change List
 
@@ -261,11 +269,11 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 在修改了的地方点击即可看到代码的变化，这里就能看到changelist，可以手动将这处更改添加到一个新的changelist中，所有的修改默认是在一个默认的changelist中的，即Default Changelist。
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929135603293.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929135603293.png)
 
 另一个要用到的地方是在左侧导航栏的commit中：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929140143223.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929140143223.png)
 
 这里就可以看到所有的changelist了，还有一个小用处就是可以把不想提交的change隔离掉，比如这里我修改了很多pom配置，但是不能提交它们，就把它们都放到了一个changelist中，改名为ignore，顾名思义，又很方便。
 
@@ -279,7 +287,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 在文件内右键选择git或者在行号栏右键都可以找到这个选项，打开后，在行号栏会展示每一行最后的修改者，~~可以用来确认是谁的bug~~，还有对应的日期，很方便，然后再次勾选可以关闭：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929150837634.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929150837634.png)
 
 ### 7.远端创建新分支本地切换分支时不显示
 
@@ -293,7 +301,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 `Settings -> Build,Execution,Deployment -> Build Tools -> Maven`：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210930162301698.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210930162301698.png)
 
 这里的配置文件虽然看上去是可以覆盖自定义路径的，但是idea有时候有bug，会自己又改回去，所以建议还是直接修改他这个默认的settings.xml文件，然后将其中的本地仓库的配置修改为本地需要的路径，重新打开设置即可看到第二个仓库配置已经更新为了刚刚修改的配置了。
 
@@ -301,7 +309,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 在Run/Debug Configurations中，添加一个maven执行配置，
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210930161526701.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210930161526701.png" style="zoom:67%;" />
 
 配置好Working Directory和Command line，这里就是maven的执行脚本，比如一般先执行clean再执行package。
 
@@ -313,7 +321,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 在Run/Debug Configurations中，添加一个Remote JVM Debug，并填写ip和调试端口：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211015155455247.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211015155455247.png)
 
 然后在远程的启动参数增加下面生成的命令，启动远程的项目和idea的调试就可以远程调试了。
 
@@ -321,41 +329,41 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 ①普通断点
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018100708638.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018100708638.png)
 
 ②非启用状态的断点
 
 右键断点，取消勾选`Enabled`即可保留断点的位置，但是将其设置为不启用的状态：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018100858431.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018100858431.png)
 
 ③不阻塞的断点
 
 右键取消勾选`Suspend`,这样经过断点时不会阻塞线程：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018101043821.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018101043821.png)
 
 ④带条件的断点
 
 在3.中详细说明：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018101204346.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018101204346.png)
 
 ⑤禁用的断点
 
 在左侧任务栏中选择`Mute Breakpoints`,就可以将所有的断点禁用：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018101401990.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018101401990.png)
 
 这样所有的断点位置保留，但是会变成灰色并且不阻塞线程：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018101529033.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018101529033.png)
 
 ⑥异常断点
 
 这个断点的作用是，当进程遇到被设置的特定异常时，会停留在发生异常的那一行。设置方法是ctrl+shift+F8，然后点击添加一个断点，选择`Java Exception Breakpoints`,然后选择一个异常即可：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018135933154.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018135933154.png)
 
 ### 3.断点条件设置
 
@@ -373,7 +381,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 现在可以在循环内部打上断点，设置一个条件：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211015160559840.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211015160559840.png" style="zoom:67%;" />
 
 这样就可以只在i为99时生效了，一个F9就可以解决很麻烦的问题。当然这是一个很强大的功能，可以写复杂的表达式来灵活运用。
 
@@ -397,7 +405,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 
 调试到某个stream时，点击`evaluate`旁边的`Trace Current Stream Chain`即可，可以选择分开来看，也可以把所有操作合起来看
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018114909599.png" style="zoom:50%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211018114909599.png" style="zoom:50%;" />
 
 ### 8.强制抛异常
 
@@ -424,7 +432,7 @@ idea在一些情况下会将同一个包中的多个import语句合为一条`imp
 在需要标记的行的行号栏上右键选择`add bookmark`或者按F11即可添加书签。
 再次点击可以选择进行编辑描述或者删除或者改为Mnemonic Bookmark：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211009152846672.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211009152846672.png)
 
 这个书签的描述默认是这行代码，展示的时候是在点击左下角的`favorites`工具栏时，里面会列举每一个书签的描述，为了方便区分和查找可以编辑一下描述。
 

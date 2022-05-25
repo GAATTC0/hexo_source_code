@@ -5,7 +5,7 @@ categories:
   - todo
 tags:
   - todo
-img: 'https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20201116215058.png'
+img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20201116215058.png'
 abbrlink: 6c9b5b14
 date: 2020-11-16 21:41:28
 update: 2021-2-10 16:16:23

@@ -8,7 +8,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509231549298.png
+img: https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509231549298.png
 ---
 
 # 在Vercel上部署hexo，再见了gitee
@@ -27,7 +27,7 @@ img: https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-2021050923154
 
 ②修改**根目录**下的_config.yml配置文件中deploy项：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509221039752.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509221039752.png)
 
 repo改成仓库地址，注意一下分支是master还是main哦。
 
@@ -41,7 +41,7 @@ repo改成仓库地址，注意一下分支是master还是main哦。
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509221424840.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509221424840.png)
 
 ④执行三连
 
@@ -57,7 +57,7 @@ push成功的话就好了。
 
 在dashboard中选择`new project`,
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509221614721.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509221614721.png)
 
 选择`Import Git Repository`，再选择关联自己的github账号并授权，这里直接授权所有仓库即可；
 
@@ -69,7 +69,7 @@ push成功的话就好了。
 
 最后可以修改项目名，框架可以不用管，然后选择`deploy`即可部署完成。
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509222022160.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509222022160.png)
 
 ## 4.自定义域名
 
@@ -81,7 +81,7 @@ push成功的话就好了。
 
 ③可以使用vercel提供的二级域名，直接添加即可(前提是没被占用)
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509222852367.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509222852367.png)
 
 格式有两种：
 

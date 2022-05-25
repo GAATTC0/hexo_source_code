@@ -5,7 +5,7 @@ categories:
   - maven
 tags:
   - bug
-img: 'https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210706140726447.png'
+img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210706140726447.png'
 abbrlink: f8b898cb
 date: 2021-07-06 13:52:20
 ---
@@ -16,7 +16,7 @@ date: 2021-07-06 13:52:20
 >
 > 经过百度以及多次尝试找到了解决办法~
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210706135543843.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210706135543843.png)
 
 ## 1.首先指定一个配置文件
 
@@ -24,7 +24,7 @@ date: 2021-07-06 13:52:20
 
 ## 2.修改配置文件中的`localRepository`标签属性
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210706135941585.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210706135941585.png)
 
 如图，改为本地的仓库路径即可
 

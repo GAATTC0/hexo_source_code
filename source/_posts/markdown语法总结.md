@@ -6,7 +6,7 @@ categories:
 tags:
   - markdown
 img: >-
-  https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/iconfinder_markdown_298823.png
+  https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/iconfinder_markdown_298823.png
 abbrlink: 5417bea
 date: 2020-12-09 14:20:10
 update: 2021-1-17 12:13:43
@@ -320,7 +320,7 @@ $$
 
 比如b站视频：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210117122139210.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210117122139210.png)
 
 ```html
 <iframe src="//player.bilibili.com/player.html?aid=543638785&bvid=BV1ui4y1c7Zm&cid=281537346&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
@@ -334,7 +334,7 @@ width="800" height="450"
 
 比如网易云：
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210117121723072.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210117121723072.png" style="zoom:67%;" />
 
 ```html
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28283406&auto=1&height=66"></iframe>

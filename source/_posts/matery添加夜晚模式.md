@@ -6,7 +6,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: 'https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/moon1217.jpg'
+img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/moon1217.jpg'
 abbrlink: de48a9ab
 date: 2020-12-17 20:46:08
 update: 2020-12-18 15:49:50
@@ -160,4 +160,4 @@ function switchNightMode() {
 
 ## 4.效果
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201217210126248.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201217210126248.png)

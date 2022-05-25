@@ -8,7 +8,7 @@ tags:
   - hexo
 abbrlink: a037197e
 date: 2021-05-14 18:39:21
-img: https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210514211104.png
+img: https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210514211104.png
 ---
 
 # 在CloudflarePages上部署hexo，再见了vercel
@@ -33,13 +33,13 @@ img: https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210514211104.png
 
 选择`创建项目`：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210514184620061.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210514184620061.png)
 
 选择仓库，即第二步的仓库，选择`开始设置`。
 
 选择项目名称和生产分支，然后构建设置这里无需操作：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210514184838962.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210514184838962.png)
 
 选择`保存并部署`。
 
@@ -81,6 +81,6 @@ wren.ns.cloudflare.com
 
 ③在`更多`中选择`修改DNS`即可
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210522111700260.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210522111700260.png)
 
 国内网络环境下生效还是挺快的，不需要等待72小时。

@@ -8,7 +8,7 @@ categories:
   - 数据库
 tags:
   - mongodb
-img: https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/mongodb-img.jpg
+img: https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/mongodb-img.jpg
 ---
 
 # HelloMongoDB - MongoDB的学习之路(还很长)
@@ -44,7 +44,7 @@ G:\MongoDB\bin\mongod --dbpath g:\data\db
 
 在bin目录下使用命令mongo即可进入命令行客户端，进行增删改查等。
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231104927831.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231104927831.png)
 
 当然也可以将这个目录加入到环境变量方便在任何地方打开。
 
@@ -80,7 +80,7 @@ show dbs
 
 可以看到admin库：
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231111142370.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231111142370.png)
 
 ### 2.进入admin数据库
 
@@ -139,7 +139,7 @@ mongodb://user:password2@localhost/database
 
 按以下格式连接
 
-![](https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231112712882.png)
+![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231112712882.png)
 
 如果没设置密码，也可以直接连接(不过不建议，如果在公网上极其容易被黑然后被勒索比特币😂)：
 
@@ -151,13 +151,13 @@ mongodb://127.0.0.1:27017
 
 点击右上角的`Fill in connection fields individually`，下面选用户名密码即可。
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231113114765.png" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231113114765.png" style="zoom:67%;" />
 
 ### 4.操作
 
 图形界面很方便明了。
 
-<img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231113242418.png" alt="image-20201231113242418" style="zoom:67%;" />
+<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201231113242418.png" alt="image-20201231113242418" style="zoom:67%;" />
 
 ## 四.MongoDB语法
 

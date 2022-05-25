@@ -6,7 +6,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: 'https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210210163912.png'
+img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210210163912.png'
 abbrlink: 7255f3e0
 date: 2020-11-21 11:33:23
 update: 2020-11-26 22:25:36
@@ -66,7 +66,7 @@ hexo\themes\hexo-theme-matery-master\source\js\prismprism.css
 <link rel="stylesheet" href="/js/prism/prism.css">
 ```
 
-<left><img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121114943495.png" alt="image-20201121114943495" style="zoom: 50%;" />
+<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121114943495.png" alt="image-20201121114943495" style="zoom: 50%;" />
 
 然后在相同目录下的footer.ejs中添加以下代码：
 
@@ -74,7 +74,7 @@ hexo\themes\hexo-theme-matery-master\source\js\prismprism.css
 <script src="/js/prism/prism.js" async></script>
 ```
 
-<left><img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121115217280.png" alt="image-20201121115217280" style="zoom: 67%;" />
+<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121115217280.png" alt="image-20201121115217280" style="zoom: 67%;" />
 
 ## 6.hexo配置
 
@@ -94,7 +94,7 @@ marked:
 
 > 我使用的是TOMORROW NIGHT主题，在java语言下的效果
 
-<left><img src="https://cdn.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121120052274.png" alt="image-20201121120052274" style="zoom:50%;" />
+<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201121120052274.png" alt="image-20201121120052274" style="zoom:50%;" />
 
 ## 8.更新：如果没效果要检查是否安装了hexo-inject
 
