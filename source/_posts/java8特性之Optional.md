@@ -5,7 +5,6 @@ categories:
   - java
 tags:
   - java
-img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/wallhaven-x8z9yo.jpg'
 abbrlink: d5c1462e
 date: 2021-07-28 16:59:07
 ---
