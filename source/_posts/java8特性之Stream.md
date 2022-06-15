@@ -116,7 +116,7 @@ Stream.of(1, 2, 3, 1, 4, 2, 5).distinct().forEach(System.out::print);
 
 ### 3.filter(Predicate<? super T> predicate)
 
-根据传入的predicate参数进行过滤，参考[jdk8特性之Predicate-stream](http://gaattc.top/posts/b6aaffba/)
+根据传入的predicate参数进行过滤，参考[jdk8特性之Predicate-stream](http://gaattc.life/posts/b6aaffba/)
 
 ### 4.map(Function<? super T, ? extends R> mapper)
 
@@ -313,7 +313,7 @@ System.out.print(reduce1);
 
 ### 1.anyMatch、 allMatch、 noneMatch
 
-参考[jdk8特性之Predicate-stream](http://gaattc.top/posts/b6aaffba/)
+参考[jdk8特性之Predicate-stream](http://gaattc.life/posts/b6aaffba/)
 
 ### 2. findAny()和findFirst()
 

@@ -33,7 +33,7 @@ date: 2021-05-16 19:20:10
 
 **html(嵌入a标签超链接):**
 
- <a target="_blank" href="https://gaattc.top"><img src="https://img.shields.io/badge/Auth-GAATTC-3790ee?style=flat&logo=Google" title="很高兴遇到你"></a>
+ <a target="_blank" href="https://gaattc.life"><img src="https://img.shields.io/badge/Auth-GAATTC-3790ee?style=flat&logo=Google" title="很高兴遇到你"></a>
 
 ![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210516193249220.png)
 

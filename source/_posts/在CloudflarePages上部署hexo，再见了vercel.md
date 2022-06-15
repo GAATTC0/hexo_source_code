@@ -23,7 +23,7 @@ img: https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/20210514211104.p
 
 ## 2.常规操作：静态文件上传到github
 
-不用多说了，参考部署到vercel的[第二步](https://gaattc.top/posts/ee92e53c)
+不用多说了，参考部署到vercel的[第二步](https://gaattc.life/posts/ee92e53c)
 
 ## 3.关联github账号
 

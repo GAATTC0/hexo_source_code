@@ -53,7 +53,7 @@ npm uninstall -S hexo-prism-plugin
 
 https://www.jianshu.com/p/205aaa14dff3
 
-https://gaattc.top/posts/708ac940/
+https://gaattc.life/posts/708ac940/
 
 ### 8.设置二级标题:star:
 
@@ -91,7 +91,7 @@ themes/hexo-theme-matery-master/layout/friends.ejs
 
 ### 12.自定义valine:star:(第七条的补充)
 
-https://gaattc.top.io/posts/708ac940/
+https://gaattc.life.io/posts/708ac940/
 
 ### 13.更改鼠标指针:star::star:
 
@@ -122,7 +122,7 @@ a,button,img{
 
 ### 14.评论推送服务
 
-详见[另一篇文章](https://gaattc.top.io/posts/708ac940/)
+详见[另一篇文章](https://gaattc.life.io/posts/708ac940/)
 
 ### 15.增加跳转评论按钮
 
@@ -286,7 +286,7 @@ https://gitee.com/GAATTC/gaattc/pages<img src="https://fastly.jsdelivr.net/gh/GA
 
 ```
 //browser:
-gaattc.top
+gaattc.life
 ```
 
 ## 三、POST:star::star:

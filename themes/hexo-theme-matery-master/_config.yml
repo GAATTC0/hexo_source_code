@@ -2,7 +2,7 @@
 # 配置菜单导航的名称、路径和图标icon.
 menu:
   Index:
-    url: http://gaattc.top
+    url: http://gaattc.life
     icon: fas fa-home
 #  Tags:
 #    url: /tags
@@ -367,7 +367,7 @@ myProjects:
     hexo-theme-matery-custom:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: https://gaattc.top
+      url: https://gaattc.life
       desc: Do you like it ? XD
     LiteMall:
         icon: fas fa-database
