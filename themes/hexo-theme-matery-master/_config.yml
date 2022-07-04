@@ -172,9 +172,9 @@ menu:
       - name: 🐉召唤神龙
         url: /games/dragon
         icon: fas fa-dragon
-#      - name: 大战小黑
-#        url: /games/littleblack
-#        icon: fas fa-dragon fa-spin
+      - name: 大战小黑
+        url: /games/littleblack
+        icon: fas fa-dragon fa-spin
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
