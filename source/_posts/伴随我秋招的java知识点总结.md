@@ -7,7 +7,7 @@ tags:
   - 学习心得
   - java
   - 面试
-img: https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/63_1571399956257_2484A7DF36877A14689574EEBDA6DD7C.png
+img: /img/63_1571399956257_2484A7DF36877A14689574EEBDA6DD7C.png
 abbrlink: a0074df5
 date: 2020-11-16 17:07:30
 ---

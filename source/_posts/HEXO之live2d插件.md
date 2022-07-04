@@ -6,7 +6,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/14.jpg'
+img: '/img/14.jpg'
 abbrlink: b7997eb8
 date: 2020-11-21 11:11:27
 ---
@@ -72,7 +72,7 @@ live2d:
 
 参考：https://github.com/blinkfox/hexo-theme-matery/issues/458
 
-<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2020-11-17_19-03-50.jpg" style="zoom:67%;" />
+<left><img src="/img/Snipaste_2020-11-17_19-03-50.jpg" style="zoom:67%;" />
 
 不蒜子js文件目录：
 

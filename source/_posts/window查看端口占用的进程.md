@@ -6,7 +6,7 @@ categories:
 tags:
   - bug
 img: >-
-  https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929110713074.png
+  /img/image-20210929110713074.png
 abbrlink: ab7da29b
 date: 2021-09-29 10:36:15
 ---
@@ -17,11 +17,11 @@ date: 2021-09-29 10:36:15
 
 在启动tomcat时，默认绑定的JMX port端口是1099，但是有时候这个端口会被其他进程占用，导致启动失败，
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16328820144688.png)
+![](/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16328820144688.png)
 
 看看异常信息：
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16328820765842.png)
+![](/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16328820765842.png)
 
 端口1099被占用，现在的任务就是找出这个占用端口的罪魁祸首，将其消灭。
 
@@ -39,7 +39,7 @@ netstat -ano
 netstat -ano|findstr "<端口号>"
 ```
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16328824758791.png)
+![](/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16328824758791.png)
 
 这样以来，就可以找出占用了1099这个端口的进程id是`17180`。
 
@@ -47,7 +47,7 @@ netstat -ano|findstr "<端口号>"
 
 打开windows的资源管理器，详细信息，按进程id排序然后手动查找即可：
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16328825646822.png)
+![](/img/%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_16328825646822.png)
 
 这样就找到了进程，<font color=#91501c>雷蛇，原来是你小子</font>😅！
 
@@ -61,10 +61,10 @@ netstat -ano|findstr "<端口号>"
 
 雷蛇驱动而已，不要也罢，不如直接——：
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929105627879.png)
+![](/img/image-20210929105627879.png)
 
 ### 3.以退为进
 
 还有一个友好型的方法，就是修改一下tomcat的启动端口，字啊这里改成一个不会被占用的即可(虽然是这么说，但是还是可能被占用233)：
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210929110713074.png" style="zoom:67%;" />
+<img src="/img/image-20210929110713074.png" style="zoom:67%;" />

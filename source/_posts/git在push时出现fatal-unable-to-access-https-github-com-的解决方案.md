@@ -5,7 +5,7 @@ categories:
   - git
 tags:
   - bug
-img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/111git.jpg'
+img: '/img/111git.jpg'
 abbrlink: 8135c12a
 date: 2021-05-10 14:15:34
 ---
@@ -14,7 +14,7 @@ date: 2021-05-10 14:15:34
 
 > 出现这种问题有许多种情况，根据不同错误提示选择不同解决方式
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210513191817547.png)
+![](/img/image-20210513191817547.png)
 
 ## 1.OpenSSL SSL_read: Connection was aborted, errno 10053
 
@@ -42,7 +42,7 @@ C:\Users\username\.ssh
 
 打开github，在设置里找到并添加SSH key即可.
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210510143241801.png)
+![](/img/image-20210510143241801.png)
 
 
 
@@ -115,5 +115,5 @@ ssh -T git@github.com
 
 最后，在根目录配置中修改仓库地址为ssh协议即可：
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210516121448458.png)
+![](/img/image-20210516121448458.png)
 

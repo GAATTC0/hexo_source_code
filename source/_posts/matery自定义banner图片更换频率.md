@@ -6,7 +6,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/wallhaven-z8mq8y.jpg'
+img: '/img/wallhaven-z8mq8y.jpg'
 abbrlink: 289a5094
 date: 2021-05-11 13:44:21
 ---
@@ -40,7 +40,7 @@ hexo\themes\hexo-theme-matery-master\layout\_partial\bg-cover-content.ejs
 
 发现每日更换图片的代码：
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210511135428447.png)
+![](/img/image-20210511135428447.png)
 
 主要逻辑就是利用字符串拼接路径，其中图片名为`星期数+".jpg"`，
 
@@ -60,7 +60,7 @@ new Date().getTime()方法就是获取当前星期数。
 
 然后放10张图片并按顺序重命名好：
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210511140633083.png)
+![](/img/image-20210511140633083.png)
 
 最后，由于是10张，可以通过分钟数对10取余，得到余数作为文件名即可
 
@@ -70,7 +70,7 @@ new Date().getMinutes() % 10
 
 如此以来就达到目的了，
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210511135320576.png)
+![](/img/image-20210511135320576.png)
 
 ## 4.补充
 

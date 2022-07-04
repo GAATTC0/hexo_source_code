@@ -5,7 +5,7 @@ categories:
   - 算法
 tags:
   - 算法
-img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/43109579.png'
+img: '/img/43109579.png'
 abbrlink: 9505ccb9
 date: 2020-11-16 19:28:42
 ---

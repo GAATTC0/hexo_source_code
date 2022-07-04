@@ -6,7 +6,7 @@ categories:
 tags:
   - pr
 img: >-
-  https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2021-10-02_20-39-06.png
+  /img/Snipaste_2021-10-02_20-39-06.png
 abbrlink: eba7cb24
 date: 2021-10-02 20:09:27
 ---
@@ -25,15 +25,15 @@ date: 2021-10-02 20:09:27
 
 这里由于youtube原版才720p，而b站有人发了处理过的1080p 60fps的版本，我就直接用[这个](https://www.bilibili.com/video/BV1bJ411z7HQ)了，用上祖传的bilibili evolved脚本，这里选最高画质，格式为`DASH`原因是只支持flv和DASH两种格式，flv在pr2020是不支持直接编辑的，并且DASH是音频视频分开下载的，反而更方便剪辑：
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002210132506.png" style="zoom:50%;" />
+<img src="/img/image-20211002210132506.png" style="zoom:50%;" />
 
 原版视频音频的文件就搞定了：
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002210524700.png" style="zoom:67%;" />
+<img src="/img/image-20211002210524700.png" style="zoom:67%;" />
 
 翻唱版呢，当然是无损更好，使用[MyFreeMP3](http://tool.liumingye.cn/music/?page=audioPage&type=YQB&name=RPG%20Lefty)即可：
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002210821531.png" style="zoom: 50%;" />
+<img src="/img/image-20211002210821531.png" style="zoom: 50%;" />
 
 > 后面还用到了印尼宽带的背景音乐"叮"作为音频的过渡，获取方式也是同上。
 
@@ -53,13 +53,13 @@ date: 2021-10-02 20:09:27
 
 反复尝试，一点点调整，A1轨道是翻唱，A2是原唱，在这里紫色的方框部分左边是翻唱第一段最后一句接下来的短暂伴奏，右边就直接开始第二段了，而红色方框是原唱这里和间奏的衔接部分。
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002212020546.png" style="zoom:67%;" />
+<img src="/img/image-20211002212020546.png" style="zoom:67%;" />
 
 视频截断会很难看而且间奏部分不能没有，那么就只能把翻唱剪开，后半部分移到和原唱第二部分一样的位置，中间这段间奏使用原唱的来代替，虽然说起来容易，但是这里费了最多的时间，导致我晚饭都没吃再加上字幕一直弄到了晚上8点😁，一口气做完的感觉针布戳。
 
 结果是，衔接部分极其难搞，怎么听都很突兀，我想到了转场音效，搜了很多也不好，灵机一动，印尼宽带的"叮"是不是可以用一下，我下了个素材剪出来这个叮放了上去，然后调两段bgm的音量，尴尬而不失礼貌地转场了，还是不够顺滑:
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002213249115.png)
+![](/img/image-20211002213249115.png)
 
 后面的衔接也是类似的处理。
 
@@ -67,7 +67,7 @@ date: 2021-10-02 20:09:27
 
 找到了一个[网易云lrc歌词提取工具](https://github.com/GAATTC0/163MusicLyrics)，然后网易云分享歌曲链接http://music.163.com/song?id=26329928，拿到歌曲id，就可以方便地下载lrc格式歌词了：
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002214130315.png" style="zoom:67%;" />
+<img src="/img/image-20211002214130315.png" style="zoom:67%;" />
 
 选择`合并歌词`，原文译文我全都要.jpg，然后下面选`UTF-8-BOM`，这个截图截错了😑
 
@@ -75,7 +75,7 @@ date: 2021-10-02 20:09:27
 
 有幸几秒钟就找到了一个~~好用~~(不确定)的[在线转换工具](http://www.lrccon.com/convert.php)：
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002214638908.png" style="zoom:67%;" />
+<img src="/img/image-20211002214638908.png" style="zoom:67%;" />
 
 不清楚是不是好用，因为一大堆问题，看下一章吧
 
@@ -83,7 +83,7 @@ date: 2021-10-02 20:09:27
 
 直接导入素材，发现文件格式有问题：
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2021-10-02_20-42-37.png" style="zoom:67%;" />
+<img src="/img/Snipaste_2021-10-02_20-42-37.png" style="zoom:67%;" />
 
 网上找了找[前人的经验](https://www.zhihu.com/question/310923147)，发现可能的问题有很多：
 
@@ -94,16 +94,16 @@ date: 2021-10-02 20:09:27
 
 然后就可以成功导入拖到轨道中了，随之而来的又是一个新问题，
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002220454322.png" style="zoom:67%;" />
+<img src="/img/image-20211002220454322.png" style="zoom:67%;" />
 
 文件格式看起来还是不对，从第二个开始坐标就跑到了字幕内容的位置，而后面的坐标全乱了导致字幕不显示。
 研究了一会发现原来是有一些片段是空内容，pr读取的时候会跳过空行读下一行，进而读取了坐标，导致之后的坐标都乱了：
 
-<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2021-10-02_20-42-04.png" style="zoom:67%;" />
+<img src="/img/Snipaste_2021-10-02_20-42-04.png" style="zoom:67%;" />
 
 后面还有很多同样的问题，我把空行全都换成了"~"，美丽地解决了这个问题。
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20211002221126236.png)
+![](/img/image-20211002221126236.png)
 
 最后一个问题是原文和译文在同一行，很难看而且不符合我们的阅读习惯，加个换行符就好了，再改改字幕的字体、大小、背景颜色、背景透明度等。
 至此，第一个视频就宣告竣工了✌完结撒花❀🎉🎊🎆🎇💐🌸🏵🌹🌺🌻🌼🌷

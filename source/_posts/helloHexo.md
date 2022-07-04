@@ -7,7 +7,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/wallhaven-4ow8qm.jpg'
+img: '/img/wallhaven-4ow8qm.jpg'
 abbrlink: d8e4ee89
 date: 2020-11-16 11:32:56
 updated: 2020-12-09 22:24:51
@@ -67,7 +67,7 @@ https://zhangxiaocai.cn/categories/Hexo/
 
 https://github.com/blinkfox/hexo-theme-matery/issues/458
 
-<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2020-11-17_19-03-50.jpg" style="zoom:67%;" />
+<left><img src="/img/Snipaste_2020-11-17_19-03-50.jpg" style="zoom:67%;" />
 
 ```
 hexo\themes\hexo-theme-matery-master\source\libs\others\busuanzi.pure.mini.js
@@ -87,7 +87,7 @@ themes/hexo-theme-matery-master/layout/friends.ejs
 
 注释掉原来的然后加上自己的东西：
 
-<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201117224030065.png" alt="image-20201117224030065" style="zoom:67%;" />
+<left><img src="/img/image-20201117224030065.png" alt="image-20201117224030065" style="zoom:67%;" />
 
 ### 12.自定义valine:star:(第七条的补充)
 
@@ -118,7 +118,7 @@ a,button,img{
 }
 ```
 
-其中cursor.ico就是指针图，比如：![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/cursor.ico)或![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/cursor.cur)或![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Arrow.cur)或![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/normal.cur)
+其中cursor.ico就是指针图，比如：![](/img/cursor.ico)或![](/img/cursor.cur)或![](/img/Arrow.cur)或![](/img/normal.cur)
 
 ### 14.评论推送服务
 
@@ -177,7 +177,7 @@ https://zhangxiaocai.cn/posts/38b34c3c.html
 ①把下面文件放在js目录下：
 
 ```url
-https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/fullscreen.js
+/img/fullscreen.js
 ```
 
 ②在文件：
@@ -280,7 +280,7 @@ $ hexo d
 
 ### 5.Deploy on gitee
 
-https://gitee.com/GAATTC/gaattc/pages<img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201116155556274.png" alt="image-20201116155556274" style="zoom: 67%;" />
+https://gitee.com/GAATTC/gaattc/pages<img src="/img/image-20201116155556274.png" alt="image-20201116155556274" style="zoom: 67%;" />
 
 ### 6.Visit site
 
@@ -333,14 +333,14 @@ categories:
 tags:
 - 学习心得
 - hexo
-img: https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/yaoshuixiedaima.jpg
+img: /img/yaoshuixiedaima.jpg
 ```
 
 ### 4.图床(PicGo)
 
 https://github.com/GAATTC0/MyPicGoOSS
 
-<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201119093006186.png" alt="image-20201119093006186" style="zoom: 50%;" />
+<left><img src="/img/image-20201119093006186.png" alt="image-20201119093006186" style="zoom: 50%;" />
 
 > 插入图片会默认居中，在图片前添加``<left>``标签即可左对齐
 

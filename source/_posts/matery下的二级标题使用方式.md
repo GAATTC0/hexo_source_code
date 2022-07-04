@@ -6,7 +6,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201126220622877.png'
+img: '/img/image-20201126220622877.png'
 abbrlink: c35239f4
 date: 2020-11-26 21:45:17
 ---
@@ -316,7 +316,7 @@ hexo\themes\hexo-theme-matery-master\layout\categories.ejs
 <%- partial('_widget/category-list') %>
 ```
 
-<left><img src="https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201126215205279.png" alt="" style="zoom: 67%;" />
+<left><img src="/img/image-20201126215205279.png" alt="" style="zoom: 67%;" />
 
 ## 3、主题的config中添加配置
 
@@ -327,4 +327,4 @@ category:
 
 ## 4、效果
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201126220622877.png)
+![](/img/image-20201126220622877.png)

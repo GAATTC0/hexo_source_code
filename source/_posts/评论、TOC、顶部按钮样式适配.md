@@ -6,7 +6,7 @@ categories:
 tags:
   - 学习心得
   - hexo
-img: 'https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/code1217.jpg'
+img: '/img/code1217.jpg'
 abbrlink: e38270af
 date: 2020-12-17 23:27:06
 ---
@@ -104,4 +104,4 @@ back-top.ejs：
 
 ## 3.效果
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20201217233634866.png)
+![](/img/image-20201217233634866.png)

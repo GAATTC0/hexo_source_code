@@ -165,7 +165,7 @@ public void testStream() {
 
 可以发现有很多stream的方法可以以Predicate作为参数：
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210723162117832.png)
+![](/img/image-20210723162117832.png)
 
 为了方便起见，把users这个list的定义放在测试类中了。
 

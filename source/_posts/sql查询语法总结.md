@@ -5,7 +5,7 @@ categories:
   - 数据库
 tags:
   - sql
-img: https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/ac6eddc451da81cb037c289d5366d016082431c3.jpg
+img: /img/ac6eddc451da81cb037c289d5366d016082431c3.jpg
 abbrlink: 23d9d6c0
 date: 2020-12-04 11:10:45
 ---
@@ -185,7 +185,7 @@ b.group_concat
 select role_main, group_concat(name) from heros group by role_main;
 ```
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/snipaste_2020-07-02_22-42-08.png)
+![](/img/snipaste_2020-07-02_22-42-08.png)
 
 c.多字段分组
 

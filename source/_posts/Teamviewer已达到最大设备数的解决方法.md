@@ -6,7 +6,7 @@ categories:
   - 日常
   - 分享
 img: >-
-  https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/Snipaste_2021-05-09_18-40-45.png
+  /img/Snipaste_2021-05-09_18-40-45.png
 abbrlink: d73cfbb1
 date: 2021-05-09 18:36:58
 ---
@@ -31,11 +31,11 @@ date: 2021-05-09 18:36:58
 
 ②在右上角头像处点`编辑配置文件`
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509185157190.png)
+![](/img/image-20210509185157190.png)
 
 ③在`免费设备`里选择要解绑的设备就可以了
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509185332082.png)
+![](/img/image-20210509185332082.png)
 
 <font color=red size=6>注意:</font>**解绑设备的次数有限，所以这个方法慎用**。
 
@@ -45,6 +45,6 @@ date: 2021-05-09 18:36:58
 
 在法二的编辑配置文件里，左下角会有一个重开按钮：
 
-![](https://fastly.jsdelivr.net/gh/GAATTC0/MyPicGoOSS@main/img/image-20210509185738737.png)
+![](/img/image-20210509185738737.png)
 
 注销后可以使用原邮箱再次注册，没有次数限制，就是比较麻烦吧哈哈~
