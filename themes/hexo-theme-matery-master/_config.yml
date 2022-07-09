@@ -129,6 +129,7 @@ menu:
         url: https://saucenao.com/
         icon: fas fa-eye
       - name: 视频接口
+#        url: https://jx.parwix.com:4433/player/?url=
         url: https://z1.m1907.cn?jx=
         icon: fas fa-file-video
         #用法：url后加参数 ?jx=<目标url>或<电影名>
@@ -164,10 +165,8 @@ menu:
         url: /games/chess/
         icon: fas fa-chess
       - name: 👶重开模拟器
+#        url: /games/lifeold/view/
         url: /games/life/view/
-        icon: fas fa-baby
-      - name: 👶重开模拟器v2
-        url: /games/lifeV2/view/
         icon: fas fa-baby
       - name: 🐉召唤神龙
         url: /games/dragon
