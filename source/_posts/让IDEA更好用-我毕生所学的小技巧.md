@@ -127,6 +127,12 @@ import layout:
 
 这里可以自定义import的格式，可以将自定义的包名添加规则格式化时自动移到指定位置，且可以在指定包名之间添加空行，还有静态引用单独一个区域等。
 
+### 13.生成serialVersionUID
+
+`Settings -> Editor -> Inspections -> Serialiation issues`：
+
+勾选Serializable class without 'serialVersionUID'，即可使用快捷修复插入。
+
 ## 二、插件篇
 
 ### 1.Translation
