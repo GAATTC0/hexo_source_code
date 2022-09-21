@@ -89,6 +89,9 @@ public static Pair<Ref, RevCommit> getLatestTag(final Git git)
 ### 3.启动springboot时报错："Error running Application. Command line is too long. Shorten the command line and rerun."
 
 点击自动修复shorten command line and rerun即可。
+其他方式参考：
+- https://www.cnblogs.com/cnndevelop/p/12740263.html
+- ~~https://blog.csdn.net/weixin_44299027/article/details/108084326~~
 
 
 <hr>
