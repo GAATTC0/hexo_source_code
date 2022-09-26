@@ -46,28 +46,28 @@ menu:
         url: https://github.com/GAATTC0
         icon: fab fa-github
       - name: 我的steam
-        url: https://www.steamcommunity.com/id/GAATTC000/
+#        url: https://www.steamcommunity.com/id/GAATTC000/
         icon: fab fa-steam
       - name: 我的bilibili
         url: https://space.bilibili.com/109208828
         icon: fas fa-tv
       - name: 我的网抑云
-        url: https://music.163.com/#/user/home?id=1367975193
+#        url: https://music.163.com/#/user/home?id=1367975193
         icon: fas fa-music
       - name: 我的twitter
-        url: https://twitter.com/gaattc0
+#        url: https://twitter.com/gaattc0
         icon: fab fa-twitter
       - name: 我的KEEP
-        url: https://show.gotokeep.com/users/5b227dd7e666861334f96827
+#        url: https://show.gotokeep.com/users/5b227dd7e666861334f96827
         icon: fab fa-kickstarter-k
       - name: 我的知乎
-        url: https://www.zhihu.com/people/gaattc-92
+#        url: https://www.zhihu.com/people/gaattc-92
         icon: fab fa-zhihu
       - name: 我的围脖
-        url: https://weibo.com/u/6601404772
+#        url: https://weibo.com/u/6601404772
         icon: fab fa-weibo
       - name: 我的豆瓣
-        url: https://www.douban.com/people/gaattc/
+#        url: https://www.douban.com/people/gaattc/
         icon: fab fa-bootstrap
   Contact:
     url: /contact
@@ -463,7 +463,7 @@ livere:
 # To use it, activate the configuration item and set appId and appKey.
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
-  enable: false
+  enable: true
   appId: DTaMYIusFNyO7gYlAv1agzrG-MdYXbMMI
   appKey: A5T3JpETlxljrqOf1R9MFm2O
   notify: false
