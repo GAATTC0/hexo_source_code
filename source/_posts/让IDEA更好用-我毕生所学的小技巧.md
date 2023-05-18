@@ -321,6 +321,32 @@ import layout:
 
 有时候编译会出问题，可以添加一个只执行clean的，在编译之前先清空class文件，防止出现一些"找不到符号"之类的问题。
 
+### 3.maven reimport后language level变化
+
+> Module 'xxx' is imported from Maven. Any changes made in its configuration may be lost after reimporting
+
+![](/img/language_level_mvn.png)
+
+上述情况，pom中加入如下配置即可：
+
+```xml
+<build>
+    <plugins>
+        <!-- ensure jdk 1.8-->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+                <encoding>UTF-8</encoding>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+```
+
 ## 五、调试篇
 
 ### 1.远程调试
