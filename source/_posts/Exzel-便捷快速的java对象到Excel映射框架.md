@@ -1,11 +1,12 @@
 ---
 title: Exzel-便捷快速的java对象到Excel映射框架
-date: 2023-04-23 19:20:40
 categories:
   - 工作
   - 开发
 tags:
   - 开发
+abbrlink: f3cba243
+date: 2023-04-23 19:20:40
 ---
 
 # Exzel
