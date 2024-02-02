@@ -24,9 +24,9 @@ abbrlink:
   # Generate categories from directory-tree
   # depth: the max_depth of directory-tree you want to generate, should > 0
   auto_category:
-     enable: true  #true(default)
+    enable: true  #true(default)
      depth:        #3(default)
-     over_write: false 
+     over_write: false
   auto_title: false #enable auto title, it can auto fill the title by path
   auto_date: false #enable auto date, it can auto fill the date by time today
   force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
@@ -125,7 +125,8 @@ theme: hexo-theme-matery-master
 deploy:
   type: git
   # repo: https://github.com/GAATTC0/hexo.git
-  repo: git@github.com:GAATTC0/hexo.git
+  #  repo: git@github.com:GAATTC0/hexo.git
+  repo: https://github.com/GAATTC0/hexo.git
   branch: master
 permalink_pinyin:
   enable: true
